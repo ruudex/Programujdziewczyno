@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     
     //zadanie 2 warsztaty
-    var button=document.querySelectorAll('.read-more');
+    var button = document.querySelectorAll('.read-more');
     
     function showHide() {
       var textArea = this.previousElementSibling;
@@ -30,9 +30,17 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     } 
     
-    for (var i = 0; i <= button.length; i++) {
+    for (var i = 0; i <= button.length-1; i++) {
         button[i].addEventListener('click', showHide);
     }
+    
+    //zadanie 3 warsztaty
+    var belka = document.querySelector('.nav-list');
+    console.log(belka);
+    
+    window.addEventListener('scroll', function () {
+      belka.style.borderBottom = '1px solid #7f7f7f';
+    }); 
     
     
 });
