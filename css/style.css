@@ -47,7 +47,7 @@ nav {
 }
 
 .dropdown {
-  display: block;
+  display: none;
   background-color: #fff;
   border-radius: 0 .0 .5rem .5rem;
   position: absolute;
@@ -302,4 +302,8 @@ footer p {
   font-size: 1.2rem;
   color: #424343;
   margin-top: 3rem;
+}
+
+.more {
+    display:none;
 }
