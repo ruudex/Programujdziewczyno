@@ -32,7 +32,7 @@ nav {
 }
 
 .nav-list {
-  color: #ea6c56;
+  color: blue;
   font-size: 1.5rem;
   text-transform: uppercase;  
   font-weight: 600;
@@ -47,7 +47,7 @@ nav {
 }
 
 .dropdown {
-  display: none;
+  display: block;
   background-color: #fff;
   border-radius: 0 .0 .5rem .5rem;
   position: absolute;
@@ -87,6 +87,7 @@ nav {
   text-shadow: .2rem .2rem .2rem #424343;
   font-weight: 600;
   font-size: 6rem;
+    margin: 5px 5px;
 }
 
 .tasks-btn {
@@ -192,6 +193,7 @@ nav {
   font-size: 1.5rem;
   color: #c8cdd1;
   margin-top: 4rem;
+  font-weight: bold;
 }
 
 .list-container {
